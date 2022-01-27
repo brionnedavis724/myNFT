@@ -1,0 +1,205 @@
+* {
+    /* when first starting css, set margin/padding to 0
+    then customize how you want */
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    /* background-color: #2266cb; */
+    /* background-color: #87C2EC; */
+    background-color: #3B5998;
+    font-family: 'Rokkitt', serif;
+
+    /* tell page to use the entire space */
+    width: 100%;
+    height: 100vh;
+
+    /* activate flex */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+/*
+font-family: 'Caveat', cursive;
+font-family: 'Itim', cursive;
+font-family: 'Rokkitt', serif;
+*/
+}
+
+.NFTcontainer {
+    /* border: 2px solid white; */
+    width: 600px;
+    height: 400px;
+    /* background-color: #3e81de; */
+    background-color: #ebebeb;
+
+    /* blur backgorund image */
+    /* background-image: url("./nftimages/mask.jfif");
+    filter: blur(20px);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    opacity: 0.3; */
+
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    padding: 25px;
+    /* box-shadow: 0 25px 50px 0; */
+    box-shadow: 6px 7px 70px 10px #c0d6df;
+}
+
+.NFTimg {
+    /* border: 2px solid black; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 15px;
+}
+
+.imgNFT {
+    width: 185px;
+    height: 225px;
+    border-radius: 5px;
+    box-shadow: 0px 0pc 10px 1px goldenrod;
+
+    opacity: 0.7;
+}
+
+#eth {
+    width: 20px;
+    height: 20px;
+}
+
+.ethUsd {
+    font-size: 14px;
+}
+
+#stars {
+    font-size: 12px;
+}
+
+.infoBid {
+    /* border: 4px dotted orange; */
+    padding-top: 20px;
+    margin-left: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+
+.bio {
+    /* border: 2px dashed yellow; */
+
+    text-align: center;
+    width: 90%;
+    /* color: white; */
+    color: #39393a;
+}
+
+.bio h1 {
+    color: #ff6b35;
+}
+
+.auctionNFT {
+    /* border: 5px dotted blue; */
+    
+    width: 90%;
+    height: 70%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bidEnd {
+    /* border: 5px dashed aqua; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100vh;
+    color: black;
+}
+
+.bidFont {
+    font-size: 20px;
+}
+
+.bidAuctionFont {
+    font-size: 22px;
+}
+
+.verticalLine {
+    /* border: 1px solid green;
+
+    height: 150px; */
+
+    /* linear gradient with transparency */
+    height: 250px;
+    width: 1px;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), #5DDE6A)
+}
+
+.priceTimeFont {
+    /* border: 1px solid red; */
+
+    font-size: 26px;
+}
+
+.time {
+    padding-left: 10px;
+}
+
+.hms {
+    /* border: 1px solid red; */
+    
+    font-size: 10px;
+    text-align: center;
+
+    /* display: flex;
+    justify-content: center; */
+}
+
+.bidOrBack {
+    /* border: 2px solid red; */
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0px 20px 0px 20px;
+}
+
+.bidBack {
+    font-family: 'Rokkitt', serif;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.bidBack:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.placeBid {
+    color: #ff6b35;
+}
+
+.goBack {
+    background-color: #ff6b35;
+}
+
+/*
+add favorties w/ hollow heart and number
+buy now and make offer button
+owned by Brionne Davis
+*/

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myNFT</title>
+    <!-- BUILDING NFT CARD FROM SCRATCH USING HTML & CSS 1/22/2022 -->
+    <link rel='stylesheet' href='nft.css'/>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Itim&family=Rokkitt:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="containerBackground">
+    <div class="NFTcontainer">
+        <div class="NFTimg">
+            <img src="./nftimages/mask.jfif" alt="bear nft image" class="imgNFT">
+            <p class="rarity">Rarity Level: <span id="stars">⭐⭐⭐⭐⭐</span></p>
+        </div> <!-- end of NFTimg-->
+
+        <div class="infoBid">
+
+            <div class="bio">
+                <h1>My NFT #333</h1>
+                <p>some text some text some text</p>
+                <p>some more text about NFT some more text about NFT some more text about NFT</p>
+            </div> <!-- end of bio -->
+
+            <div class="auctionNFT">
+                <div class="bidEnd bidFont">
+                    <div class="currentBid">
+                        <p class="bidAuctionFont">Current Bid:</p><br><br>
+                        <p class="priceTimeFont">1.80 
+                            <span>
+                                <img id="eth" src="./nftimages/eth.jpg"/> ETH
+                            </span>
+                        </p>
+                        <p class="ethUsd">($4352.92 USD)</p>
+                    </div>
+
+                    <div class="verticalLine"></div>
+
+                    <div class="endAuction">
+                        <p class="bidAuctionFont">Auction Ending:</p><br><br>
+                        <p class="priceTimeFont time">02 : 59 : 59</p>
+                        <p class="hms">Hours Minutes Seconds</p>
+                    </div>
+                </div> <!-- end of bidEnd -->
+
+                <div class="bidOrBack">
+                    <button class="placeBid bidBack">Place Bid</button>
+                    <button class="goBack bidBack">Go Back</button>
+                </div> <!-- end of bidOrBack -->
+            </div> <!-- end of auctionNFT-->
+         
+        </div> <!-- end of infoBid -->
+    </div> <!-- end of NFTcontainer -->
+</div> <!-- end of containerBackground -->
+</body>
+</html>
